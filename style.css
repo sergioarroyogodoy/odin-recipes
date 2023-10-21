@@ -1,5 +1,78 @@
 * {
-    background-color: rgb(255, 250, 226);
+    background-color: rgb(253, 255, 252);
     font-family: sans-serif, Tahoma, "Trebuchet MS" ;
     color: rgb(29, 30, 24) 
+}
+
+p,
+li {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.entire-page-content {
+    padding: 0 100px;
+    margin: 25px auto;
+    max-width: 1000px;
+    height: 100%;
+}
+
+/* --- Titles and Categories --- */
+
+.recipe-title {
+    font-size: 38;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.recipe-category {
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 0;
+    letter-spacing: 2px;
+    padding-left: 5px;
+    font-size: 16;
+}
+
+/* --- Main Content --- */
+
+.recipe-cover-image {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0 0;
+}
+
+/* -- Subheading -- */
+
+.recipe-page-section {
+    text-transform: uppercase;
+    font-size: 20;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.description-card {
+    margin-bottom: 50px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(110, 141, 42);
+    padding: 20px 0;
+    color: white;
+    margin-top: -5px;
+}
+
+.description-card * {
+    background-color: inherit;
+    margin: 20px 30px;
+    color: inherit;
+}
+
+.ingredients-card {
+    margin-bottom: 50px;
+}
+
+.steps-card {
+    margin-bottom: 50px;
 }
